@@ -1,0 +1,7 @@
+package com.bussinessmanager.BM.Repositories;
+
+import com.bussinessmanager.BM.Entities.Admin;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface AdminRepository extends JpaRepository<Admin, Long> {
+}
