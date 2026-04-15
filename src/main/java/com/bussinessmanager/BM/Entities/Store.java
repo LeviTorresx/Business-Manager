@@ -11,7 +11,7 @@ import lombok.Setter;
 public class Store {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long storeId;
+    private Long storeId;
     private String storeName;
     private String storeEmail;
     private String address;

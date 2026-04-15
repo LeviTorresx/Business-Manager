@@ -14,9 +14,10 @@ public class Admin {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long adminId;
+    private Long adminId;
     private String name;
     private String email;
+    private String password;
     private String phoneNumber;
 
     @OneToMany(mappedBy = "admin", cascade = CascadeType.ALL, orphanRemoval = true)
